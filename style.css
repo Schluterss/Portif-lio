@@ -85,13 +85,13 @@ section h2 {
   color: #555;
 }
 
-/* 🎥 VIDEOS TODOS IGUAIS */
+/* VIDEOS */
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 720px; /* largura máxima */
+  max-width: 720px; 
   margin: 0 auto 1rem auto;
-  aspect-ratio: 16 / 9; /* mantém proporção */
+  aspect-ratio: 16 / 9; 
 }
 
 .video-container video {
@@ -114,12 +114,12 @@ section h2 {
 .projeto a:hover {
   background: #3e5e8a;
 }
-/* Imagens dos projetos (mesmo tamanho que os vídeos) */
+
 .projeto img {
   width: 100%;
-  height: 500px; /* mesmo tamanho que os vídeos */
+  height: 500px; 
   border-radius: 8px;
-  object-fit: cover; /* mantém proporção e corta excesso */
+  object-fit: cover; 
 }
 
 
@@ -155,3 +155,4 @@ footer {
   background: #1e2a38;
   color: #cdd6e0;
 }
+
